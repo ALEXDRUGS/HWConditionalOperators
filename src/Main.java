@@ -1,10 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        int age = 13;
-        if (age <= 5) {System.out.println("Кататься нельзя.");}
-        else if (age > 5 && age < 14) {System.out.println("Кататься в сопровождении взрослого.");}
-        else {System.out.println("Можно кататься одному.");}
-
-
+        int one = 41;
+        int two = 18;
+        int three = 25;
+        if (one > two && one > three){System.out.println(one);}
+        else if (two > one && two > three) {System.out.println(two);}
+        else if (three > one && three > two) {System.out.println(three);}
+        }
     }
-}
+
+
+
