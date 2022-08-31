@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        int age = 19;
-        if (age >=2 && age <= 6) {System.out.println("Если возраст " + age + " лет, он ходит в детский сад.");}
-        if (age >= 7 && age <= 18) {System.out.println("Если возраст " + age + " лет, он ходит в школу.");}
-        if (age > 18 && age <= 24) {System.out.println("Если возраст " + age + " лет, он ходит в университет.");}
-        if (age > 24) {System.out.println("Если возраст " + age + " лет, он работает.");}
+        int age = 14;
+        if (age <= 5) {System.out.println("Кататься нельзя.");}
+        else if (age > 5 && age < 14) {System.out.println("Кататься в сопровождении взрослого.");}
+        else {System.out.println("Можно кататься одному.");}
+
+
     }
 }
