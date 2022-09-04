@@ -1,16 +1,31 @@
 public class Main {
     public static void main(String[] args) {
-        int deliveryDistance = 95;
-        int min = 20;
-        int i = 40; //интервал расстояния
-        int day = 1;
-        int sum = deliveryDistance / i;
-        if (deliveryDistance <= min){
-            System.out.println("Потребуется дней: " + day);}
-        else if (deliveryDistance % i <= min){
-            System.out.println("Потребуется дней: " + (sum + day));}
-        else if (deliveryDistance % i > min){
-            System.out.println("Потребуется дней: " + (sum + (day + day)));}
+        int monthNumber = 8;
+        switch (monthNumber){
+            case 12:
+            case 1:
+            case 2:
+                System.out.println("Зима");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Весна");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Лето");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Осень");
+                break;
+            default:
+                break;
+        }
     }
 }
+
 
