@@ -1,11 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int i;
-        for (i = 1; i <= 512; i = i * 2) {
-            System.out.print(i + " ");
+        int mounth;
+        int sumAccumulation = 29_000;
+        for (mounth = 1; mounth <= 12; mounth++) {
+            System.out.println(mounth + "й месяц накоплено: " + sumAccumulation);
+            sumAccumulation += 29_000;
         }
     }
 }
-
 
 
