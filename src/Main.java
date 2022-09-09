@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         int i;
-        for (i = 7; i <= 98; i = i + 7) {
+        for (i = 1; i <= 512; i = i * 2) {
             System.out.print(i + " ");
         }
     }
