@@ -1,12 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int mounth;
-        int sumAccumulation = 29_000;
-        mounth = 1;
-        while (sumAccumulation <= 2_500_000) {
-            System.out.println(mounth + "й месяц накоплено: " + sumAccumulation);
-            sumAccumulation = sumAccumulation + (29_000 + (sumAccumulation / 100));
-            mounth++;
+        int numSubsequence;
+        numSubsequence = 1;
+        while (numSubsequence <= 10) {
+            System.out.print(numSubsequence + " ");
+            numSubsequence++;
+        }
+        System.out.println();
+        for (numSubsequence = 10; numSubsequence >0; numSubsequence -= 1) {
+            System.out.print(numSubsequence + " ");
         }
     }
 }
