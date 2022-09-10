@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         int interval;
-        int mounth = 31;
-        for (interval = 7; interval <= mounth; interval += 7)
-            System.out.println("Today friday " + interval + "th. Need to prepare a report.");
+        int date = 2096;
+        int min = date - 200;
+        int max = date + 100;
+        for (interval = min; interval <= max; interval += 79)
+            System.out.println(interval);
     }
 }
 
